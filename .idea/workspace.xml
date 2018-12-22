@@ -4,7 +4,14 @@
     <list default="true" id="325865cd-4a75-421e-a160-9dc83a141906" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zyl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leslie1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leslie2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sherlock1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sherlock2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunnyacal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zyl1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zyl2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zyl3.jpeg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+            <state relative-caret-position="1463">
+              <caret line="108" column="47" lean-forward="true" selection-start-line="108" selection-start-column="47" selection-end-line="108" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -58,7 +65,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -70,6 +76,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -101,12 +108,13 @@
       <option name="presentableId" value="Default" />
       <updated>1545302457227</updated>
       <workItem from="1545302458538" duration="1359000" />
-      <workItem from="1545372412529" duration="1449000" />
+      <workItem from="1545372412529" duration="1459000" />
+      <workItem from="1545484108028" duration="134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2808000" />
+    <option name="totallyTimeSpent" value="2952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -140,6 +148,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
         </state>
@@ -147,8 +162,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        <state relative-caret-position="1463">
+          <caret line="108" column="47" lean-forward="true" selection-start-line="108" selection-start-column="47" selection-end-line="108" selection-end-column="47" />
         </state>
       </provider>
     </entry>
