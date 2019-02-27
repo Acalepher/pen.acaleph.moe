@@ -2,17 +2,47 @@ p{
 
 }
 img{
+    height: 50%;
+    width: 50%;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    opacity: 0.7;
 }
 * {
     font-family: "PingFangSC-Regular", "Raleway", Roboto, serif;
     overflow: auto;
 }
-.text_piece{
-    width: 30%;
-    margin: 10px;
-    padding: 15px;
-    border: 3px solid black;
-    color: #841818;
-    font-size: 100%;
-    background-color: #e0bb20;
+
+body{
+
+    text-align: center;
 }
+
+.text_piece{
+    width: 23%;
+    margin: 10px auto;
+    padding: 30px 30px 30px 30px;
+    border: 1px #403f48;
+    color: #c19898;
+    font-size: 100%;
+    text-align:left;
+    background-color: #4a4a48;
+
+    position: relative;
+
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+
+    -webkit-box-shadow: 4px 4px 5px;
+    box-shadow: 4px 4px 5px #403f48;
+
+}
+
+.text_piece footer{
+    font-size: 70%;
+    text-align: right;
+}
+html{
+    background-color: #ebebe3;
+}
+
