@@ -1,26 +1,24 @@
-p{
-
+* {
+    font-family: "PingFangSC-Regular", "Raleway", Roboto, serif;
+    overflow: auto;
+}
+html{
+    background-color: #ebebe3;
+}
+body{
+    text-align: center;
 }
 img{
     height: 50%;
     width: 50%;
     -webkit-border-radius: 20px;
     border-radius: 20px;
-    opacity: 0.7;
-}
-* {
-    font-family: "PingFangSC-Regular", "Raleway", Roboto, serif;
-    overflow: auto;
-}
-
-body{
-
-    text-align: center;
+    opacity: 1;
 }
 
 .text_piece{
-    width: 23%;
-    margin: 10px auto;
+    width: 320px;
+    margin: 20px auto;
     padding: 30px 30px 30px 30px;
     border: 1px #403f48;
     color: #c19898;
@@ -29,20 +27,22 @@ body{
     background-color: #4a4a48;
 
     position: relative;
-
-    -webkit-border-radius: 20px;
     border-radius: 20px;
-
-    -webkit-box-shadow: 4px 4px 5px;
     box-shadow: 4px 4px 5px #403f48;
 
-}
 
+}
 .text_piece footer{
     font-size: 70%;
     text-align: right;
 }
-html{
-    background-color: #ebebe3;
+#txt_bkg{
+    background-image: url(./image/tilted_watermark.svg);
+    background-size: 10% 10%;
+    background-repeat: repeat;
+    z-index: -100;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
 }
 
