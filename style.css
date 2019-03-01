@@ -1,8 +1,6 @@
-* {
+html{
     font-family: "PingFangSC-Regular", "Raleway", Roboto, serif;
     overflow: auto;
-}
-html{
     background-color: #ebebe3;
 }
 body{
@@ -14,6 +12,19 @@ img{
     -webkit-border-radius: 20px;
     border-radius: 20px;
     opacity: 1;
+}
+li {
+    display: inline;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
 }
 
 .text_piece{
@@ -45,4 +56,5 @@ img{
     width: 100vw;
     height: 100vh;
 }
+
 
