@@ -4,22 +4,23 @@ html{
     background-color: #ebebe3;
 }
 body{
-    text-align: center;
+
 }
 img{
     height: 50%;
     width: 50%;
-    -webkit-border-radius: 20px;
     border-radius: 20px;
     opacity: 1;
 }
-ul {
+.personal_sites {
     padding: 0;
+    text-align: center;
 }
-li {
+.personal_site{
     display: inline;
+    text-align: center;
 }
-a {
+.personal_site a {
     outline: none;
     text-decoration: none;
     display: inline-block;
@@ -30,19 +31,19 @@ a {
     border-radius: 15px;
     transition: color, background-color .2s ease;
 }
-li:last-child a {
+.personal_site:last-child a {
     margin-right: 0;
 }
 
-a:link, a:visited, a:focus {
+.personal_site a:link, .personal_site a:visited, .personal_site a:focus {
     background: #9d8f8f;
 }
 
-a:hover {
+.personal_site a:hover {
     background: #625757;
 }
 
-a:active {
+.personal_site a:active {
     background: #f9f9f9;
     color: #bcbab8;
 }
@@ -53,14 +54,12 @@ a:active {
     border: 1px #403f48;
     color: #c19898;
     font-size: 100%;
-    text-align:left;
     background-color: #4a4a48;
 
+    text-align: left;
     position: relative;
     border-radius: 20px;
     box-shadow: 4px 4px 5px #403f48;
-
-
 }
 .text_piece footer{
     font-size: 70%;
