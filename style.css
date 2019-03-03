@@ -1,10 +1,14 @@
+@font-face {
+    font-family: "sushiki";
+    src: url("./sushiki/sushiki.ttf");
+}
 html{
     font-family: "PingFangSC-Regular", "Raleway", Roboto, serif;
     overflow: auto;
     background-color: #ebebe3;
 }
 body{
-
+    padding: 0;
 }
 img{
     height: 50%;
@@ -12,18 +16,18 @@ img{
     border-radius: 20px;
     opacity: 1;
 }
-.personal_sites {
+#personal_sites {
     padding: 0;
     text-align: center;
 }
 .personal_site{
     display: inline;
-    text-align: center;
 }
 .personal_site a {
     outline: none;
     text-decoration: none;
     display: inline-block;
+    text-align: center;
     color: #f9f9f9;
     width: 30px;
     height: 30px;
