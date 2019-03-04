@@ -5,7 +5,10 @@
 html{
     font-family: "PingFangSC-Regular", "Raleway", Roboto, serif;
     overflow: auto;
-    background-color: #ebebe3;
+    background: #ebebe3 url(./image/tilted_watermark.svg) repeat fixed;
+    background-size: 10% 10%;
+    width: 100vw;
+    height: 100vh;
 }
 body{
     padding: 0;
@@ -15,7 +18,35 @@ img{
     width: 50%;
     border-radius: 20px;
     opacity: 1;
+    max-width: 100%;
+    margin: 20px auto;
+    display: block;
+    position: relative;
 }
+
+
+.text_piece{
+    width: 320px;
+    margin: 20px auto;
+    padding: 30px 30px 30px 30px;
+    color: #c19898;
+    font-size: 100%;
+    background-color: #4a4a48;
+
+    text-align: left;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 4px 4px 1px #bcbab8;
+}
+.text_piece footer{
+    font-size: 70%;
+    text-align: right;
+}
+
+
+
+
+
 #personal_sites {
     padding: 0;
     text-align: center;
@@ -51,32 +82,3 @@ img{
     background: #f9f9f9;
     color: #bcbab8;
 }
-.text_piece{
-    width: 320px;
-    margin: 20px auto;
-    padding: 30px 30px 30px 30px;
-    border: 1px #403f48;
-    color: #c19898;
-    font-size: 100%;
-    background-color: #4a4a48;
-
-    text-align: left;
-    position: relative;
-    border-radius: 20px;
-    box-shadow: 4px 4px 5px #403f48;
-}
-.text_piece footer{
-    font-size: 70%;
-    text-align: right;
-}
-#txt_bkg{
-    background-image: url(./image/tilted_watermark.svg);
-    background-size: 10% 10%;
-    background-repeat: repeat;
-    z-index: -100;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-}
-
-
