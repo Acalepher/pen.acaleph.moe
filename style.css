@@ -27,7 +27,7 @@ img{
 
 .text_piece{
     width: 320px;
-    margin: 20px auto;
+    margin: 50px auto;
     padding: 30px 30px 30px 30px;
     color: #c19898;
     font-size: 100%;
@@ -36,49 +36,9 @@ img{
     text-align: left;
     position: relative;
     border-radius: 20px;
-    box-shadow: 4px 4px 1px #bcbab8;
+    box-shadow: 2px 2px 50px #2b2b28;
 }
 .text_piece footer{
     font-size: 70%;
     text-align: right;
-}
-
-
-
-
-
-#personal_sites {
-    padding: 0;
-    text-align: center;
-}
-.personal_site{
-    display: inline;
-}
-.personal_site a {
-    outline: none;
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
-    color: #f9f9f9;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 15px;
-    transition: color, background-color .2s ease;
-}
-.personal_site:last-child a {
-    margin-right: 0;
-}
-
-.personal_site a:link, .personal_site a:visited, .personal_site a:focus {
-    background: #9d8f8f;
-}
-
-.personal_site a:hover {
-    background: #625757;
-}
-
-.personal_site a:active {
-    background: #f9f9f9;
-    color: #bcbab8;
 }
