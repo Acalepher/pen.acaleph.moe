@@ -36,7 +36,7 @@ img{
     text-align: left;
     position: relative;
     border-radius: 20px;
-    box-shadow: 0 2px 70px #2b2b28;
+    box-shadow: 1px 1px 70px #2b2b28;
 }
 .text_piece footer{
     font-size: 70%;
