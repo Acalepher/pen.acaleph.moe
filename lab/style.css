@@ -1,85 +1,60 @@
 @font-face {
     font-family: "sushiki";
-    src: url("../sushiki/sushiki.ttf");
+    src: url("./sushiki/sushiki.ttf");
 }
 html{
     font-family: "PingFangSC-Regular", "Raleway", Roboto, serif;
     overflow: auto;
-    background-color: #ebebe3;
+    background: #ebebe3 url(../image/tilted_watermark.svg) repeat fixed;
+    background-size: 10% 10%;
+    width: 100vw;
+    height: 100vh;
 }
 body{
-    width: calc(100% - 20px);
-    height: calc(100% - 20px);
-    left: 10px;
-    top: 10px;
-    position: absolute;
-    box-sizing: border-box;
+    padding: 0;
     margin: 0;
-    padding: 0;
-    border: 3px dashed #616161;
 }
-.sigh{
-    width: 70%;
-    height: 70%;
-    margin: 10px auto;
-    position: absolute;
-    left: 15%;
-    top: 15%;
+#menu{
+    height: 100vh;
+    width: 30%;
+    background-color: #000000;
+    display: block;
+    position: fixed;
 }
-#personal_sites {
-    padding: 0;
-    text-align: center;
-}
-.personal_site{
-    display: inline;
-}
-.personal_site a {
-    outline: none;
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
-    color: #f9f9f9;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 15px;
-    transition: color, background-color .2s ease;
-}
-.personal_site:last-child a {
-    margin-right: 0;
-}
-
-.personal_site a:link, .personal_site a:visited, .personal_site a:focus {
-    background: #616161;
-}
-
-.personal_site a:hover {
-    background: #2b2b28;
-}
-
-.personal_site a:active {
-    background: #f9f9f9;
-    color: #bcbab8;
-}
-
-/*
-#aca_running{
+#menu div:nth-child(1){
     width: 100%;
     height: 40%;
-    position: absolute;
+    background-color: #e0bb20;
     left: 0;
-    top: 60%;
-    background-color: #2be4dc;
-    background: radial-gradient(circle, #2be4dc 0%, #243484 95%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    top: 65%;
+    position: relative;
 }
-
-#aca_running svg:nth-child(1), .jellyfish {
-    height: 100vh;
-    margin: 0 auto;
-    will-change: transform;
+#menu div:nth-child(2){
+    width: 100%;
+    height: 33.33%;
+    background-color: #841818;
+    left: 0;
+    top: 0;
+    position: absolute;
 }
-
- */
+.text_pieces{
+    position: absolute;
+    width: 50vw;
+    left: calc((100% - 50vw)/2);
+}
+.text_piece{
+    width: 320px;
+    margin: 50px auto;
+    padding: 30px;
+    color: #c19898;
+    font-size: 100%;
+    background-color: #4a4a48;
+    text-align: left;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 1px 1px 70px #2b2b28;
+}
+.text_piece footer{
+    font-size: 70%;
+    text-align: right;
+}
