@@ -3,7 +3,7 @@
     src: url("./sushiki/sushiki.ttf");
 }
 html{
-    font-family: "PingFangSC-Regular", "Raleway", Roboto, serif;
+    font-family: "PingFangSC-Regular", "Raleway", serif;
     overflow: auto;
     background-color: #ebebe3;
 }
