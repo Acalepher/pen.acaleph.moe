@@ -9,6 +9,7 @@ html{
     background-size: 30px, 30px;
     width: 100vw;
     height: 100vh;
+    animation: first 1s;
 }
 body{
     width: calc(100% - 20px);
