@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "sushiki";
-    src: url("./sushiki/sushiki.ttf");
+    font-family: "sushiki","Hades";
+    src: url("./fonts/sushiki/sushiki.ttf"), url("./fonts/Hades.ttf");
 }
 html{
     font-family: "PingFangSC-Regular", "Raleway", serif;
@@ -66,6 +66,17 @@ body{
 .personal_site a:active {
     background: #f9f9f9;
     color: #bcbab8;
+}
+
+#main_logo{
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    padding: 0;
+    left: 20%;
+    top: 20%;
+    transform: rotate(-10deg);
 }
 
 /*
