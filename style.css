@@ -9,7 +9,6 @@ html{
     background-size: 30px, 30px;
     width: 100vw;
     height: 100vh;
-    animation: first 1s;
 }
 body{
     width: calc(100% - 20px);
@@ -70,12 +69,12 @@ body{
 
 #main_logo{
     position: absolute;
-    width: 60%;
-    height: 60%;
+    width: 80vmin;
+    height: 40vmin;
+    left: calc(50% - 40vmin);
+    top: calc(50% - 20vmin);
     margin: 0 auto;
     padding: 0;
-    left: 20%;
-    top: 20%;
     transform: rotate(-10deg);
 }
 
@@ -101,7 +100,45 @@ body{
 
  */
 
-@keyframes first {
-    from{background-color: #fcfaf1;}
-    to{background-color: #ebebe3;}
-}
+
+
+/*** wave ***/
+@keyframes wave30 {
+    0% {
+        transform: translateY(0%); }
+    50% {
+        transform: translateY(30%); }
+    100% {
+        transform: translateY(0%); } }
+
+@keyframes wave40 {
+    0% {
+        transform: translateY(0%); }
+    50% {
+        transform: translateY(40%); }
+    100% {
+        transform: translateY(0%); } }
+
+@keyframes wave50 {
+    0% {
+        transform: translateY(0%); }
+    50% {
+        transform: translateY(50%); }
+    100% {
+        transform: translateY(0%); } }
+
+@keyframes wave60 {
+    0% {
+        transform: translateY(0%); }
+    50% {
+        transform: translateY(60%); }
+    100% {
+        transform: translateY(0%); } }
+
+@keyframes wave70 {
+    0% {
+        transform: translateY(0%); }
+    50% {
+        transform: translateY(70%); }
+    100% {
+        transform: translateY(0%); } }
