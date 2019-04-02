@@ -1,6 +1,6 @@
 @font-face {
     font-family: "sushiki";
-    src: url("../sushiki/sushiki.ttf");
+    src: url("../fonts/sushiki/sushiki.ttf");
 }
 html{
     font-family: "PingFangSC-Regular", "Raleway", Roboto, serif;
