@@ -5,7 +5,7 @@
 html{
     font-family: "PingFangSC-Regular", "Raleway", serif;
     overflow: auto;
-    background: #ebebe3 url(./image/blocks.svg) repeat fixed;
+    background: url(./image/small-squ.svg) repeat fixed;
     background-size: 30px, 30px;
     width: 100vw;
     height: 100vh;
@@ -19,7 +19,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 3px dashed #616161;
+    border-radius: 50px;
 }
 .sigh{
     width: 70%;
@@ -35,7 +35,10 @@ body{
 }
 .personal_site{
     display: inline;
-    margin: 5px;
+    margin-right: 5px;
+    width: 32px;
+    line-height: 30px;
+    transition: color, background-color .2s ease;
 }
 .personal_site a {
     outline: none;
@@ -45,26 +48,26 @@ body{
     color: #f9f9f9;
     width: 30px;
     height: 30px;
-    line-height: 30px;
     border-radius: 15px;
-    transition: color, background-color .2s ease;
+    border: 1px solid #fffafb;
 }
+
 .personal_site:last-child a {
     margin-right: 0;
 }
 
 .personal_site a:link, .personal_site a:visited, .personal_site a:focus {
-    background: #616161;
+    background: #7f7a95;
 }
 
 .personal_site a:hover {
-    background: #2b2b28;
+    background: #ffb4be;
     transform: scale(1.1, 1.1);
 }
 
 .personal_site a:active {
-    background: #f9f9f9;
-    color: #bcbab8;
+    background: #ffb4be;
+    color: #ffe7b1;
 }
 
 #main_logo{
@@ -72,12 +75,21 @@ body{
     width: 80vmin;
     height: 40vmin;
     left: calc(50% - 40vmin);
-    top: calc(42% - 20vmin);
+    top: calc(50% - 20vmin);
     margin: 0 auto;
     padding: 0;
     transform: rotate(-10deg);
 }
 
+#pull{
+    position: absolute;
+    width: 10vmin;
+    height: 50vmin;
+    left: calc(90% - 2.5vmin);
+    top: -10px;
+    margin: 0 auto;
+    padding: 0;
+}
 /*
 #aca_running{
     width: 100%;

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.76 40.76">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff0f3;
+      }
+    </style>
+  </defs>
+  <title>small-squ</title>
+  <g id="图层_2" data-name="图层 2">
+    <g id="图层_1-2" data-name="图层 1">
+      <g>
+        <rect class="cls-1" width="40.76" height="40.76"/>
+        <rect class="cls-2" width="7.11" height="7.11"/>
+      </g>
+    </g>
+  </g>
+</svg>

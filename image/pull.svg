@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.17 373.66">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #7f7a95;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        fill: #7f7a95;
+      }
+    </style>
+  </defs>
+  <title>pull</title>
+  <g id="图层_2" data-name="图层 2">
+    <g id="图层_1-2" data-name="图层 1">
+      <g>
+        <line class="cls-1" x1="14.58" x2="14.58" y2="327.74"/>
+        <g>
+          <ellipse class="cls-2" cx="14.58" cy="334.33" rx="12.03" ry="8.08"/>
+          <path class="cls-2" d="M16.61,333.81c-1.11-3.11-2.93-3.11-4,0L.33,368c-1.11,3.11.68,5.65,4,5.65H24.86c3.3,0,5.09-2.54,4-5.65Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
