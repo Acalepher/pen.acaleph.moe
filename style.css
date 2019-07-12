@@ -90,28 +90,6 @@ body{
     margin: 0 auto;
     padding: 0;
 }
-/*
-#aca_running{
-    width: 100%;
-    height: 40%;
-    position: absolute;
-    left: 0;
-    top: 60%;
-    background-color: #2be4dc;
-    background: radial-gradient(circle, #2be4dc 0%, #243484 95%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#aca_running svg:nth-child(1), .jellyfish {
-    height: 100vh;
-    margin: 0 auto;
-    will-change: transform;
-}
-
- */
-
 .wave {
     position: absolute;
     bottom: 10px;
